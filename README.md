@@ -1,4 +1,4 @@
-####Followed the John Smilga Tutorial
+#Followed the John Smilga Tutorial
 - created a local wikipedia search bar that redirects the user to a page of the subject choice
 - used html, css , and js
 
