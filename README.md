@@ -2,45 +2,45 @@
 - created a local wikipedia search bar that redirects the user to a page of the subject choice
 - used html, css , and js
 
-- section.wiki
-  - div.container
-    - img
-    - h3(text)
-    - form.form
-      - input.form-input type='text'
-      - button.submit-btn (search) type='submit'
-  - div.results
-    - div.articles
-      - a
-        - h4
-        - p (lorem20)
+      - section.wiki
+        - div.container
+          - img
+          - h3(text)
+          - form.form
+            - input.form-input type='text'
+            - button.submit-btn (search) type='submit'
+        - div.results
+          - div.articles
+            - a
+              - h4
+              - p (lorem20)
 
-#### API DOCS
+      #### API DOCS
 
-- [wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
+      - [wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
 
-- ready to go url's
+      - ready to go url's
 
-#### Initial Setup
+      #### Initial Setup
 
-- select form, input, results
-- listen for submit events
-- if empty value, display error
-- create fetchPages()
-- pass valid input value into the fetchPages()
+      - select form, input, results
+      - listen for submit events
+      - if empty value, display error
+      - create fetchPages()
+      - pass valid input value into the fetchPages()
 
-#### Fetch Pages
+      #### Fetch Pages
 
-- display loading while fetching
-- construct dynamic url
-- display if error
-- display error no items
-- create renderResults()
-- pass valid results into renderResults()
+      - display loading while fetching
+      - construct dynamic url
+      - display if error
+      - display error no items
+      - create renderResults()
+      - pass valid results into renderResults()
 
-#### Render Results
+      #### Render Results
 
-- iterate over the list
-- pull out title, snippet, pageid
-- setup a card
-- set results with div.articles and list inside
+      - iterate over the list
+      - pull out title, snippet, pageid
+      - setup a card
+      - set results with div.articles and list inside
